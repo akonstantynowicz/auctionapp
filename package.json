@@ -1,0 +1,53 @@
+{
+  "name": "auction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/app",
+    "dev": "nodemon server/app",
+    "serve": "vue-cli-service serve client/src/main --port 8080",
+    "build": "vue-cli-service build client/src/main"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^2.0.0-rc.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-csp-header": "^3.0.0",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.10",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "sass-loader": "^8.0.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "uuidv4": "^6.0.7",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-cookies": "^1.7.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
